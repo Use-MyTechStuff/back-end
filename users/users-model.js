@@ -18,9 +18,9 @@ async function add(user) {
     return findById(id)
 }
 
-function getAllItems() {
-    return db("items")
-}
+// function getAllItems() {
+//     return db("items")
+// }
 
 function findItemById(id) {
     return db("items").where({ id }).first()
@@ -51,7 +51,7 @@ module.exports = {
     findById,
     findItemById,
     findUserItems,
-    getAllItems,
+    // getAllItems,
     add,
     addItemToUser,
     deleteUser,
