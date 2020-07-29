@@ -1,8 +1,7 @@
 # Backend - Use my Tech Stuff
 
 ## Author
-**Elchin Nasirov** 
-Github: [@ElchinNasirov](https://github.com/ElchinNasirov)
+**Elchin Nasirov** - Github: [@ElchinNasirov](https://github.com/ElchinNasirov)
 
 ## App
 ### https://use-my-tech-stuff-be.herokuapp.com/
