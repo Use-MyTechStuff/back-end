@@ -3,15 +3,15 @@ exports.up = function (knex) {
 
         .createTable("users", users => {
             users.increments("id")
-            users.text("username", 255).notNull().unique()
-            users.text("password", 255).notNull()
-            users.text("email", 255).notNull()
+            users.string("username", 255).notNull().unique()
+            users.string("password", 255).notNull()
+            users.string("email", 255).notNull()
         })
 
         .createTable("items", items => {
             items.increments("id")
-            items.text("name", 255).notNull()
-            items.text("description", 255).notNull()
+            items.string("name", 255).notNull()
+            items.string("description", 255).notNull()
 
             items.integer("user_id")
                 .notNull()
@@ -22,9 +22,9 @@ exports.up = function (knex) {
 
             items.boolean("availability").defaultTo(false)
             items.integer("daily_rate").notNull()
-            items.text("condition", 20).notNull()
-            items.text("location", 50).notNull()
-            items.text("img", 256)
+            items.string("condition", 20).notNull()
+            items.string("location", 50).notNull()
+            items.string("img", 256)
         })
 };
 

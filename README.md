@@ -1,13 +1,13 @@
 # Backend - Use my Tech Stuff
 
 ## Author
+**Elchin Nasirov** 
+Github: [@ElchinNasirov](https://github.com/ElchinNasirov)
 
-**Elchin Nasirov**
-
-- Github: [@ElchinNasirov](https://github.com/ElchinNasirov)
+## App
+### https://use-my-tech-stuff-be.herokuapp.com/
 
 ## Install
-
 ```sh
 npm install
 ```
@@ -321,5 +321,4 @@ Parameters:
 | Name          | Type       | Required | Notes                             |
 | ------------- | ---------- | -------- | --------------------------------- |
 | Authorization | **Header** | yes      | Acquired from a successful login. |
-
 ---

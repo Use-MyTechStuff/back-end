@@ -33,6 +33,8 @@
   "devDependencies": {
     "cleaner": "^2.0.0-alpha",
     "cross-env": "^7.0.2",
-    "nodemon": "^2.0.4"
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
   }
 }

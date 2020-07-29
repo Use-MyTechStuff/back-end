@@ -6,7 +6,7 @@ const restricted = require("../middleware/restricted")
 router.get("/", restricted, (req, res) => {
     Items.allItems()
         .then(items => {
-            res.json(items)
+            res.status(200).json(items)
         })
         .catch(err => {
             console.log(err)
